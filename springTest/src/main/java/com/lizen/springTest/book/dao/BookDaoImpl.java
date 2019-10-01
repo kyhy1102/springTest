@@ -1,5 +1,5 @@
 package com.lizen.springTest.book.dao;
 
-public interface BookDao {
+public class BookDaoImpl implements BookDao{
 
 }

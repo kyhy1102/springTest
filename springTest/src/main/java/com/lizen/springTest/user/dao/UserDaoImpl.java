@@ -1,5 +1,5 @@
 package com.lizen.springTest.user.dao;
 
-public interface UserDao {
+public class UserDaoImpl implements UserDao{
 
 }
