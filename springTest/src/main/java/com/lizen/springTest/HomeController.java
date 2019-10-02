@@ -17,10 +17,7 @@ public class HomeController {
 	
 	@RequestMapping(value = "/test.do", method = RequestMethod.GET)
 	public String home(Locale locale, Model model) {
-		System.out.println(userService.getDetail(5).getAddress() + "//");
-		System.out.println(userService.getDetail(5).getAddress() + "//");
-		System.out.println(userService.getList().get(0).getName() + "//");
-		System.out.println(userService.getList().get(1).getName() + "//");
+		System.out.println(userService.getDetail(0).getAddress());
 		
 		model.addAttribute("test", "test.do 호출 입니다.");
 		
